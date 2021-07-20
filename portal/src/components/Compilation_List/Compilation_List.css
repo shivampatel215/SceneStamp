@@ -1,0 +1,17 @@
+.mainTable {
+	display: inline-block;
+}
+
+.mainTable th
+{
+    padding:0 60px 0 0; /* Only right padding*/
+}
+
+.mainTable td {
+	padding:0 150px 0 0; /* Only right padding*/
+}
+
+.tableBody{
+	height:200px;
+	overflow:auto;
+}

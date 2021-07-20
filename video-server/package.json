@@ -1,0 +1,40 @@
+{
+  "name": "video-server",
+  "version": "1.0.0",
+  "description": "stores videos for scene stamp ; api's to store episode files and create compilation videos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "dependencies": {
+    "assert": "^2.0.0",
+    "async": "^3.1.0",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ffmetadata": "^1.5.0",
+    "ffmpeg": "^0.0.4",
+    "forever": "^1.0.0",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^6.2.0",
+    "mock-fs": "^4.10.1",
+    "nock": "^10.0.6",
+    "pre-commit": "^1.2.2",
+    "python-shell": "^1.0.7",
+    "sinon": "^7.3.2"
+  },
+  "author": "",
+  "license": "ISC"
+}

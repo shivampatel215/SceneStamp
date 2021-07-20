@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: inherit;
+  width: inherit;
+}
+
+.App {
+  height: inherit;
+  width: inherit;
+}

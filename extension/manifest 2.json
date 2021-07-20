@@ -1,0 +1,22 @@
+{
+  "name": "Scenestamp 1.0",
+  "description": "Stamp scenes with scenestamp beta",
+  "version": "0.1",
+  "permissions": ["http://*/"],
+  "browser_action": {
+    "default_icon": "icon48.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://www.youtube.com/*", "https://www.youtube.com/*"],
+      "css": ["content.css", "selectize.bootstrap2.min.css"],
+      "js": ["content.js", "jquery.min.js", "selectize.min.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": ["content.css"],
+  "manifest_version": 2
+}

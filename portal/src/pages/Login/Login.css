@@ -1,0 +1,75 @@
+.login-wrap {
+  background: #103142;
+  width: inherit;
+  height: inherit;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.login-header {
+  font-size: 40px;
+  color: white;
+  padding-left: 8rem;
+  padding-top: 2rem;
+}
+
+.Modal {
+  position: fixed;
+  top: 27%;
+  left: 40%;
+}
+
+.login-title {
+  color: #f0f8f9;
+  font-size: 50px;
+  font-weight: 200;
+  margin-bottom: 2.8rem;
+  text-align: center;
+}
+
+.login-slogan {
+  color: #f0f8f9;
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.login-wrap input {
+  width: 350px;
+  height: 40px;
+  border-radius: 11px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background-color: #274855 !important;
+  color: #f0f8f9;
+  padding: 1.8rem;
+  padding-left: 1rem;
+}
+
+.login-wrap input::placeholder {
+  color: #f0f8f9;
+}
+
+.login-form {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.login-form div {
+  margin-bottom: 1.5rem;
+}
+
+.login-sign {
+  background: #65da83;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  width: 350px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 1rem;
+  cursor: pointer;
+}

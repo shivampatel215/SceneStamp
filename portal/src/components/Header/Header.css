@@ -1,0 +1,42 @@
+.main-nav {
+  height: 75px;
+  width: 100%;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.main-nav > div {
+  line-height: 75px;
+}
+
+.main-nav > div:first-child {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 2rem;
+}
+
+.main-nav > div:last-child {
+  float: right;
+  margin-right: 2rem;
+}
+
+.main-nav > div:last-child > div {
+  float: left;
+  text-align: center;
+}
+
+.main-nav > div:last-child > div:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: white;
+  padding: 2rem 1.3rem;
+  width: 100px;
+}

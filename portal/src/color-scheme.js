@@ -1,0 +1,5 @@
+export const PRIMARY = '#1E91D6'
+export const ACCENT_1 = '#E4572E'
+export const ACCENT_2 = '#F3A712'
+export const GREEN = '#9BE564'
+export const RED = '#DF2935'

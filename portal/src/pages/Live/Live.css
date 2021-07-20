@@ -1,0 +1,123 @@
+.live-container h3 {
+  margin-left: 24px;
+}
+
+.live-list div {
+  height: 75px;
+  width: 120px;
+  border-top: 1px solid #cfd6dd;
+  border-left: 1px solid #cfd6dd;
+  border-bottom: 2px solid #cfd6dd;
+  text-align: center;
+  line-height: 75px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.live-list {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-bottom: 1rem;
+  width: 92vw;
+}
+
+.live-list div:last-child {
+  border-right: 1px solid #cfd6dd;
+}
+
+.live-content {
+  padding-left: 3.7rem;
+  padding-top: 1.5rem;
+}
+
+.live-data {
+}
+
+.live-scenes {
+  display: flex;
+}
+
+.live-video-container {
+  height: 65vh;
+  width: 70vw;
+}
+
+.live-video-unavailable {
+  background: gray;
+  text-align: center;
+  line-height: 65vh;
+  font-weight: bold;
+  height: 65vh;
+  width: 70vw;
+}
+
+.live-timeline {
+  width: 300px;
+  border: 1px solid black;
+  margin-right: 1rem;
+  padding: 0;
+  overflow: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 65vh;
+}
+
+.live-timeline li {
+  list-style: none;
+  border-bottom: 1px solid black;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.live-circle {
+  width: 5px;
+  height: 20px;
+  background: #e97162;
+  border-radius: 15px;
+  position: absolute;
+  top: -7px;
+  cursor: pointer;
+}
+
+.hide-calendar {
+  display: none;
+}
+
+.show-calendar {
+  position: absolute;
+}
+
+.calendar-icon {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.live-games-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.live-games-title span {
+  margin-left: 5px;
+}
+
+.selected-game {
+  color: white;
+  background: #1e83ea;
+}
+
+.live-offset {
+  margin-top: 0.5rem;
+}
+
+.live-offset span {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.live-offset input {
+  width: 90px;
+  margin-right: 10px;
+}

@@ -1,0 +1,57 @@
+.timestamp {
+	background: white;
+	width:70%;
+	border-radius: 25px;
+	position: relative;
+	
+}
+
+.inner {
+	position: relative;
+	padding:2% 0% 2%;
+	margin:5%;
+	height: fit-content;
+	width:100%;
+	z-index: 2;
+}
+
+.timestamp_title{
+	display:flex;
+	width:100%;
+}
+
+.linkedStatus {
+	margin-right: 2%;
+	padding:1px 5px 1px;
+	text-align: center;
+	color:white;
+	border-radius: 25px;
+}
+
+.episodeName {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width:75%;
+}
+
+.start_time {
+	font-style: italic;
+}
+
+.attributes {
+    bottom: 0;
+	display:flex;
+}
+
+.attribute {
+	margin-right:2%;
+	padding:1px 5px 1px;
+	text-align: center;
+	color:white;
+	border-radius: 25px;
+}
+
+.attribute-text {
+	white-space: nowrap;
+}
